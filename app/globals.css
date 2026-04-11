@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #E7E0D3;
+  color: #191617;
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+  letter-spacing: 0.3px;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+h1 {
+  font-size: 72px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 56px;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #191617;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+/* Buttons */
+.btn {
+  padding: 14px 32px;
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 2px;
+  letter-spacing: 0.5px;
+}
+
+.btn-primary {
+  background-color: #E0C86E;
+  color: #191617;
+}
+
+.btn-primary:hover {
+  background-color: #D4B85C;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(224, 200, 110, 0.15);
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: #191617;
+  border: 1.5px solid #191617;
+}
+
+.btn-secondary:hover {
+  background-color: #191617;
+  color: #E7E0D3;
+  transform: translateY(-2px);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #E9E2D9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #B8AA95;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #9D8F7A;
+}
+
+/* Smooth transitions */
+.transition-all {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Elegant hover effect */
+.hover-lift {
+  transition: all 0.3s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-4px);
+}
