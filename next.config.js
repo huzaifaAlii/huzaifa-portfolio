@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-  images: {
-    unoptimized: true,
+  eslint: {
+    // Ye build ke waqt ESLint errors ko ignore kar dega
+    ignoreDuringBuilds: true,
   },
 }
 

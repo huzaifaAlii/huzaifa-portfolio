@@ -18,15 +18,15 @@ const About = () => {
           <div className="grid lg:grid-cols-2 gap-16 items-start">
             <div className="space-y-6">
               <p className="text-lg text-dark/80 leading-relaxed font-light">
-                I'm a Software Engineering student at COMSATS University Islamabad with a passion for building elegant, scalable solutions that solve real-world problems. With expertise in full-stack development, I bring together clean architecture, modern technologies, and user-centric design principles.
+                I&apos;m a Software Engineering student at COMSATS University Islamabad with a passion for building elegant, scalable solutions that solve real-world problems. With expertise in full-stack development, I bring together clean architecture, modern technologies, and user-centric design principles.
               </p>
 
               <p className="text-lg text-dark/80 leading-relaxed font-light">
-                Over the past few years, I've worked on diverse projects—from e-commerce platforms with AI-powered features to responsive web applications. I'm driven by the challenge of writing clean, maintainable code and creating seamless user experiences.
+                Over the past few years, I&apos;ve worked on diverse projects—from e-commerce platforms with AI-powered features to responsive web applications. I&apos;m driven by the challenge of writing clean, maintainable code and creating seamless user experiences.
               </p>
 
               <p className="text-lg text-dark/80 leading-relaxed font-light">
-                When I'm not coding, I'm exploring emerging technologies, contributing to open-source projects, or helping others understand complex concepts. I believe in continuous learning and pushing the boundaries of what's possible on the web.
+                When I&apos;m not coding, I&apos;m exploring emerging technologies, contributing to open-source projects, or helping others understand complex concepts. I believe in continuous learning and pushing the boundaries of what&apos;s possible on the web.
               </p>
             </div>
 

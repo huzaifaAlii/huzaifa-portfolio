@@ -68,9 +68,9 @@ const Contact = () => {
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-5xl lg:text-6xl font-serif font-bold text-cream-300 mb-8">Let's Work Together</h2>
+          <h2 className="text-5xl lg:text-6xl font-serif font-bold text-cream-300 mb-8">Let&apos;s Work Together</h2>
           <p className="text-xl text-cream-300/80 mb-16 max-w-2xl font-light">
-            Interested in building something incredible? I'd love to hear about your project.
+            Interested in building something incredible? I&apos;d love to hear about your project.
           </p>
 
           <div className="grid lg:grid-cols-2 gap-16">
@@ -106,7 +106,6 @@ const Contact = () => {
                 <textarea name="message" value={formData.message} onChange={handleChange} rows={5} required className="w-full px-4 py-3 bg-cream-300/10 border border-cream-300/20 text-cream-300 rounded-lg focus:outline-none focus:border-gold transition-all resize-none" />
               </div>
 
-              {/* Aapka Original Button Design */}
               <motion.button
                 type="submit"
                 disabled={isSubmitting}
