@@ -1,5 +1,12 @@
-# Practice Repository
+# Huzaifa Ali Portfolio
 
-This repository is for GitHub achievement practice.
+This is my personal portfolio website built with Next.js, TypeScript, and Tailwind CSS.
 
-Practice change 1
+The website includes my projects, skills, experience, and contact details.
+
+## Tech Stack
+
+- Next.js
+- TypeScript
+- Tailwind CSS
+- CSS
