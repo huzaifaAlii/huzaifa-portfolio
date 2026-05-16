@@ -1,8 +1,8 @@
-# Huzaifa Ali Portfolio
+# Huzifa Ali Portfolio
 
-This is my personal portfolio website built with Next.js, TypeScript, and Tailwind CSS.
+This is my personal developer portfolio website built with Next.js, TypeScript, and Tailwind CSS.
 
-The website includes my projects, skills, experience, and contact details.
+It showcases my work in full-stack web development, modern UI design, API-based projects, automation tools, and GitHub-based development workflows.
 
 ## Tech Stack
 
@@ -10,3 +10,8 @@ The website includes my projects, skills, experience, and contact details.
 - TypeScript
 - Tailwind CSS
 - CSS
+- Vercel Deployment
+
+## Live Website
+
+https://huzifa-portfolio-sigma.vercel.app
