@@ -14,4 +14,4 @@ It showcases my work in full-stack web development, modern UI design, API-based 
 
 ## Live Website
 
-https://huzifa-portfolio-sigma.vercel.app
+(https://huzaifa-portfolio-sigma.vercel.app/)
